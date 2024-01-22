@@ -7,6 +7,7 @@ Step 1.1 Connect to MS SQL Server Database System
 """
 DRIVER_NAME = 'SQL Server'
 SERVER_NAME = '<server_name>'
+'''Run script: 'SELECT @@ ServerName' on SQL Server to get a Server name.'''
 DATABASE_NAME = '<database_name>'
 
 def connection_string(driver_name, server_name, database_name):
